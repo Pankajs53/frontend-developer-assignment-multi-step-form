@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/frontend-developer-assignment-multi-step-form/static/css/main.033d6e1c.css",
-    "main.js": "/frontend-developer-assignment-multi-step-form/static/js/main.7fbe2dbd.js",
+    "main.css": "/frontend-developer-assignment-multi-step-form/static/css/main.25608f4b.css",
+    "main.js": "/frontend-developer-assignment-multi-step-form/static/js/main.e490bc53.js",
     "static/js/264.5fcf5d84.chunk.js": "/frontend-developer-assignment-multi-step-form/static/js/264.5fcf5d84.chunk.js",
     "static/js/441.60cc5506.chunk.js": "/frontend-developer-assignment-multi-step-form/static/js/441.60cc5506.chunk.js",
     "static/js/569.d7228440.chunk.js": "/frontend-developer-assignment-multi-step-form/static/js/569.d7228440.chunk.js",
     "static/js/453.ed3810f9.chunk.js": "/frontend-developer-assignment-multi-step-form/static/js/453.ed3810f9.chunk.js",
     "static/js/419.12e8a66f.chunk.js": "/frontend-developer-assignment-multi-step-form/static/js/419.12e8a66f.chunk.js",
     "index.html": "/frontend-developer-assignment-multi-step-form/index.html",
-    "main.033d6e1c.css.map": "/frontend-developer-assignment-multi-step-form/static/css/main.033d6e1c.css.map",
-    "main.7fbe2dbd.js.map": "/frontend-developer-assignment-multi-step-form/static/js/main.7fbe2dbd.js.map",
+    "main.25608f4b.css.map": "/frontend-developer-assignment-multi-step-form/static/css/main.25608f4b.css.map",
+    "main.e490bc53.js.map": "/frontend-developer-assignment-multi-step-form/static/js/main.e490bc53.js.map",
     "264.5fcf5d84.chunk.js.map": "/frontend-developer-assignment-multi-step-form/static/js/264.5fcf5d84.chunk.js.map",
     "441.60cc5506.chunk.js.map": "/frontend-developer-assignment-multi-step-form/static/js/441.60cc5506.chunk.js.map",
     "569.d7228440.chunk.js.map": "/frontend-developer-assignment-multi-step-form/static/js/569.d7228440.chunk.js.map",
@@ -17,7 +17,7 @@
     "419.12e8a66f.chunk.js.map": "/frontend-developer-assignment-multi-step-form/static/js/419.12e8a66f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.033d6e1c.css",
-    "static/js/main.7fbe2dbd.js"
+    "static/css/main.25608f4b.css",
+    "static/js/main.e490bc53.js"
   ]
 }
