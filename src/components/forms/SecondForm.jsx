@@ -114,10 +114,7 @@ const SecondForm = () => {
                         id="zipCode"
                         {...register('zipCode', {
                             required: 'Zip Code is required',
-                            pattern: {
-                                value: /^\d{8}(-\d{4})?$/,
-                                message: 'Invalid zip code format',
-                            },
+                            
                         })}
                         defaultValue={currData.zipCode || ''}
                         className={`border border-gray-600 bg-gray-800 text-black p-2 rounded w-full focus:outline-none focus:border-blue-500 ${errors.zipCode ? 'border-red-500' : ''
