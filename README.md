@@ -38,7 +38,10 @@ Use appropriate CSS (possibly with a CSS framework like Bootstrap or Material UI
 # Setup Instructions
 
 # Clone the Repository:
+```
 1. git clone https://github.com/Pankajs53/frontend-developer-assignment-multi-step-form
+```
+
 2. cd frontend-developer-assignment-multi-step-form
 
 # Install Dependencies:
