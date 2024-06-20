@@ -115,7 +115,7 @@ const SecondForm = () => {
                         {...register('zipCode', {
                             required: 'Zip Code is required',
                             pattern: {
-                                value: /^\d{5}(-\d{4})?$/,
+                                value: /^\d{8}(-\d{4})?$/,
                                 message: 'Invalid zip code format',
                             },
                         })}
