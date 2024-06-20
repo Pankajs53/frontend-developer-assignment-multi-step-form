@@ -42,14 +42,17 @@ Use appropriate CSS (possibly with a CSS framework like Bootstrap or Material UI
 1. git clone https://github.com/Pankajs53/frontend-developer-assignment-multi-step-form
 ```
 
-2. cd frontend-developer-assignment-multi-step-form
 
-# Install Dependencies:
-1. npm install
+# Install the missing npm packages using the following command:
+```
+ npm install
+```
 
-# Run the Application:
+# Start the project from the root of the directory:
+```
 npm start
-This command will start the development server. Open http://localhost:3000 to view the application in your browser.
+```
+
 
 
 
