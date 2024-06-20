@@ -6,7 +6,7 @@ This project is part of an internship assignment aimed at creating a responsive 
 You can access the deployed version of this project at http://Pankajs53.github.io/frontend-developer-assignment-multi-step-form.
 
 # Requirements
- # Form Structure:
+
 
 # Implement a multi-step form with three steps:
 Step 1: Personal Information (Name, Email, Phone)
@@ -38,7 +38,7 @@ Use appropriate CSS (possibly with a CSS framework like Bootstrap or Material UI
 # Setup Instructions
 
 # Clone the Repository:
-1. git clone https://github.com/your-username/frontend-developer-assignment-multi-step-form.git
+1. git clone https://github.com/Pankajs53/frontend-developer-assignment-multi-step-form
 2. cd frontend-developer-assignment-multi-step-form
 
 # Install Dependencies:
