@@ -25,7 +25,7 @@ const FinalPreviewData = () => {
     return (
         <div className="max-w-md mx-auto mt-10 bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">Final Preview Data</div>
+                <div className="font-bold text-xl mb-2">Final Review Data</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Name */}
                     <div className="bg-blue-900 text-white p-4 rounded-lg shadow-md">
