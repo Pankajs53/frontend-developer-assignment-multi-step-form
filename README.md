@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Frontend Developer Assignment: Multi-Step Form with React
+# Objective
+This project is part of an internship assignment aimed at creating a responsive multi-step form using React.js. The form is designed to handle data validation, error handling, navigation controls, and persistent data storage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deployed Version
+You can access the deployed version of this project at http://Pankajs53.github.io/frontend-developer-assignment-multi-step-form.
 
-## Available Scripts
+# Requirements
 
-In the project directory, you can run:
 
-### `npm start`
+# Implement a multi-step form with three steps:
+Step 1: Personal Information (Name, Email, Phone)
+Step 2: Address Information (Address Line 1, Address Line 2, City, State, Zip Code)
+Step 3: Confirmation (Review all entered data)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Navigation and Buttons:
+Use tabbed navigation to switch between steps.
+Disable the back button on the first step.
+Disable the next button on the last step and replace it with a submit button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Validation:
+Implement client-side validation to ensure all fields are filled before allowing navigation to the next step.
+Display appropriate error messages if fields are empty or invalid (e.g., email format).
+Highlight fields with errors.
 
-### `npm test`
+# State Management:
+Manage form data using React state.
+Utilize hooks like useState and useEffect for managing state updates based on user inputs and form navigation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Local Storage:
+Persist entered data to local storage when the user navigates between steps.
+Retrieve and pre-fill form fields if the user revisits the form.
 
-### `npm run build`
+# Responsive Design:
+Ensured the form is responsive and works well on desktop, tablet, and mobile screens.
+Use appropriate CSS (possibly with a CSS framework like Bootstrap or Material UI) for layout and responsiveness.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Clone the Repository:
+```
+1. git clone https://github.com/Pankajs53/frontend-developer-assignment-multi-step-form
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Install the missing npm packages using the following command:
+```
+ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Start the project from the root of the directory:
+```
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
