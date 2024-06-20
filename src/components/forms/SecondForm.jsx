@@ -12,7 +12,7 @@ const SecondForm = () => {
     } = useForm();
 
     const dispatch = useDispatch();
-    const { currData } = useSelector((state) => state.formSlice); 
+    const { currData } = useSelector((state) => state.formSlice);
 
     // Load form data from localStorage 
     useEffect(() => {
@@ -27,13 +27,13 @@ const SecondForm = () => {
             setValue('state', storedFormData.currData.state || '');
             setValue('zipCode', storedFormData.currData.zipCode || '');
         }
-    }, []); 
+    }, []);
 
     const onSubmit = (data) => {
         // Update Redux state with current form data
-        dispatch(setCurrData(data)); 
+        dispatch(setCurrData(data));
         // Move to the next step
-        dispatch(setCurrStep(3)); 
+        dispatch(setCurrStep(3));
     };
 
     return (
@@ -96,6 +96,7 @@ const SecondForm = () => {
                         id="state"
                         {...register('state', {
                             required: 'State is required',
+
                         })}
                         defaultValue={currData.state || ''}
                         className={`border border-gray-600 bg-gray-800 text-black p-2 rounded w-full focus:outline-none focus:border-blue-500 ${errors.state ? 'border-red-500' : ''
@@ -114,7 +115,12 @@ const SecondForm = () => {
                         id="zipCode"
                         {...register('zipCode', {
                             required: 'Zip Code is required',
-                            
+                            pattern: {
+                                value: /^[0-9]{4,9}$/,
+                                message: 'Zip Code must be between 4 and 9 digits'
+                            },
+                            validate: value => value.length >= 4 && value.length <= 9 || 'Zip Code must be between 4 and 9 digits'
+
                         })}
                         defaultValue={currData.zipCode || ''}
                         className={`border border-gray-600 bg-gray-800 text-black p-2 rounded w-full focus:outline-none focus:border-blue-500 ${errors.zipCode ? 'border-red-500' : ''
@@ -132,7 +138,7 @@ const SecondForm = () => {
 
                 <div className='flex flex-row justify-between mt-6'>
                     <button
-                        onClick={()=>dispatch(setCurrStep(1))}
+                        onClick={() => dispatch(setCurrStep(1))}
                         className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition-colors duration-300"
                     >
                         Previous
